@@ -12,7 +12,7 @@ Securing a high-quality AI or Machine Learning internship requires a strategic c
             └─ Classical ML algorithms     └─ Contribute to open source     └─ System & Coding prep
 ```
 
-- 📺 **How to Land a Machine Learning Internship**: [Watch Video](https://youtu.be/_2k5-5S9Qoo)
+- 📺 **How to Land a Machine Learning Internship**: [Watch Video](https://www.youtube.com/watch?v=suFhA8lXIpI)
 
 ---
 

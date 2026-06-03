@@ -19,8 +19,8 @@ Deep Learning powers modern AI systems, from image recognition to large language
 ### 1. Neural Networks & Math
 Learn the fundamentals of Perceptrons, Multi-Layer Perceptrons (MLPs), Forward Pass, Loss Functions, Backpropagation, and Optimizers (SGD, RMSprop, Adam).
 - 📺 **Neural Networks by 3Blue1Brown**: [Watch Playlist](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- 📺 **Neural Networks: Zero to Hero by Andrej Karpathy**: [Watch Playlist](https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUbFy1A)
-- 📺 **CampusX Deep Learning Course**: [Watch Playlist](https://youtube.com/playlist?list=PLKnIA16_RmvVqyU6FRG_yL7n5wN1WdYk6)
+- 📺 **Neural Networks: Zero to Hero by Andrej Karpathy**: [Watch Playlist](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+- 📺 **CampusX Deep Learning Course**: [Watch Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn)
 
 ### 2. Deep Learning Frameworks
 Learn how to build neural networks using PyTorch (highly recommended for research/industry) or TensorFlow (used widely in enterprise).
@@ -34,8 +34,8 @@ Learn how to build neural networks using PyTorch (highly recommended for researc
 ### 1. Convolutional Neural Networks (CNNs)
 Best for grid-like data like image pixels, video frames, and spectrographs.
 - **Topics**: Convolution layer, Max Pooling, Padding, Strides, ResNet, VGG.
-- 📺 **CNNs Explained (StatQuest)**: [Watch Video](https://youtu.be/HGwqe6yp1Ec)
-- 📺 **Build a CNN with PyTorch**: [Watch Video](https://youtu.be/Jy4wM1xNeq0)
+- 📺 **CNNs Explained (StatQuest)**: [Watch Video](https://www.youtube.com/watch?v=nVhau51w6dM)
+- 📺 **Build a CNN with PyTorch**: [Watch Video](https://www.youtube.com/watch?v=V_xro1bcAuA)
 
 ### 2. Recurrent Neural Networks & LSTMs
 Designed for sequential data like text, time-series, and voice transcripts.
@@ -46,7 +46,7 @@ Designed for sequential data like text, time-series, and voice transcripts.
 ### 3. Transformers (The Backbone of Modern GenAI)
 Replacing LSTMs in NLP using Attention Mechanisms to process sequences in parallel.
 - **Topics**: Self-Attention, Multi-Head Attention, Positional Encoding, Encoder-Decoder architecture.
-- 📺 **Transformers Explained (3Blue1Brown)**: [Watch Video](https://youtu.be/zxQyUd1gUXI)
+- 📺 **Transformers Explained (3Blue1Brown)**: [Watch Video](https://www.youtube.com/watch?v=wjZofJX0v4M)
 - 📺 **Let's Build GPT from Scratch by Andrej Karpathy**: [Watch Video](https://youtu.be/kCc8FmEb1nY)
 
 ---
@@ -84,8 +84,8 @@ print(model)
 
 ## 🛠️ Deep Learning Milestones & Projects
 1. **MNIST Digit Classifier** (Your "Hello World" of Deep Learning)
-   - 📺 **Tutorial**: [Watch Video](https://youtu.be/OMDnWYtWNC4)
+   - 📺 **Tutorial**: [Watch Video](https://www.youtube.com/watch?v=V_xro1bcAuA)
 2. **Image Classification using Transfer Learning (ResNet50)**
-   - 📺 **Tutorial**: [Watch Video](https://youtu.be/r5S50gMJDvU)
+   - 📺 **Tutorial**: [Watch Video](https://www.youtube.com/watch?v=V_xro1bcAuA)
 3. **Shakespeare Text Generator (RNN/LSTM)**
    - 📺 **Tutorial**: [Watch Video](https://youtu.be/kCc8FmEb1nY)

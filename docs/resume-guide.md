@@ -9,8 +9,8 @@ A highly optimized, metrics-driven resume is your key to getting callbacks for A
 [Contact Info] ──> [Professional Summary] ──> [Skills Matrix] ──> [Work Experience (Metrics!)] ──> [AI Projects]
 ```
 
-- 📺 **How to Write a Tech Resume (TechLead/FreeCodeCamp)**: [Watch Video](https://youtu.be/xpAzY_74sU0)
-- 📺 **AI & Data Science Resume Review**: [Watch Video](https://youtu.be/g9c65LFJn3o)
+- 📺 **How to Write a Tech Resume (TechLead/FreeCodeCamp)**: [Watch Video](https://www.youtube.com/watch?v=5gLVxMKeSGM)
+- 📺 **AI & Data Science Resume Review**: [Watch Video](https://www.youtube.com/watch?v=5gLVxMKeSGM)
 
 ---
 

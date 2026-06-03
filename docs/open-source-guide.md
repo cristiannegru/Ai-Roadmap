@@ -12,7 +12,7 @@ Contributing to open-source AI repositories (like LangChain, LlamaIndex, Ollama,
 [Submit PR & Address Reviews] <── [Write Tests & Lint] <── [Write Code & Commit]
 ```
 
-- 📺 **How to Contribute to Open Source (freeCodeCamp)**: [Watch Video](https://youtu.be/apzXGEbPGxs)
+- 📺 **How to Contribute to Open Source (freeCodeCamp)**: [Watch Video](https://www.youtube.com/watch?v=mklEhT_RLos)
 - 📺 **Git & GitHub Workflows**: [Watch Video](https://youtu.be/RGOj5yH7evk)
 
 ---

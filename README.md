@@ -86,20 +86,20 @@ graph TD
 
 ### 📌 Phase 2: Data Manipulation & Wrangling
 *Master the essential tools for reading, cleaning, and visualizing structured datasets.*
-* 🧮 **NumPy Tutorial**: [freeCodeCamp Guide](https://youtu.be/QUT1VHiLgI4)
-* 🐼 **Pandas Full Course**: [CampusX Playlist](https://youtube.com/playlist?list=PLKnIA16_Rmvb1RYRc93n_T1Zg-A8N65M6)
-* 📈 **Matplotlib & Seaborn Visualizations**: [CampusX Playlist](https://youtube.com/playlist?list=PLKnIA16_RmvayZ5pGz1e70M6v_xVfKssK)
+* 🧮 **NumPy Tutorial**: [freeCodeCamp Guide](https://www.youtube.com/watch?v=GB9ByFAIAH4)
+* 🐼 **Pandas Full Course**: [CampusX Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z)
+* 📈 **Matplotlib & Seaborn Visualizations**: [CampusX Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvbR85fgbfVRKOiMokUKVupy)
 
 ### 📌 Phase 3: Classical Machine Learning
 *Understand regression, classification, clustering, and evaluating model metrics.*
-* 🤖 **100 Days of Machine Learning**: [CampusX Course](https://youtube.com/playlist?list=PLKnIA16_RmvbOo3NzU5v45E7b4x109FTS)
-* 📉 **Feature Engineering & Imputation**: [CampusX Playlist](https://youtube.com/playlist?list=PLKnIA16_RmvbEPjJ2C7jSp5fN9Urcv-U1)
+* 🤖 **100 Days of Machine Learning**: [CampusX Course](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
+* 📉 **Feature Engineering & Imputation**: [CampusX Playlist](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
 * 📊 **StatQuest Machine Learning Videos**: [Concept Explanations](https://youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
-* 🎯 **Evaluation Metrics Tutorial**: [Accuracy, Precision, Recall](https://youtu.be/wpQiScX_Hss)
+* 🎯 **Evaluation Metrics Tutorial**: [Accuracy, Precision, Recall](https://www.youtube.com/watch?v=4jRBRDbJemM)
 
 ### 📌 Phase 4: Deep Learning Foundations
 *Build deep neural networks, CNNs, sequence models, and attention mechanisms.*
-* 🧠 **Neural Networks Zero to Hero**: [Andrej Karpathy Course](https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUbFy1A)
+* 🧠 **Neural Networks Zero to Hero**: [Andrej Karpathy Course](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 * 🔥 **PyTorch Deep Learning Bootcamp**: [freeCodeCamp Guide](https://youtu.be/V_xro1bcAuA)
 * 🛠️ **TensorFlow Developer Course**: [freeCodeCamp Guide](https://youtu.be/tpCFfeUEGs8)
 * ⚡ **Transformers from Scratch**: [Karpathy GPT Guide](https://youtu.be/kCc8FmEb1nY)
@@ -108,28 +108,28 @@ graph TD
 *Dive into modern state-of-the-art Generative AI architectures, RAG systems, and autonomous agents.*
 * 🚀 **Generative AI for Developers**: [Andrew Ng Course Intro](https://youtu.be/mEsleV16qdo)
 * 💬 **Intro to Large Language Models**: [Karpathy Guide](https://youtu.be/zjkBMFhNj_g)
-* 🤖 **AI Agents & Tool Use**: [ReAct Agent Guide](https://youtu.be/F8N5a5KyPmA)
-* 🔌 **Model Context Protocol (MCP)**: [MCP Tutorial Guide](https://youtu.be/G2pZzGZ2fFE)
-* 🗂️ **Vector Databases & RAG from Scratch**: [Pinecone & LangChain](https://youtube.com/playlist?list=PLfaIDF_Lw__D2a7PsnK1Kg1NBOo0mE2w0)
-* 🧪 **PEFT & QLoRA Fine-Tuning**: [Fine-tuning LLMs Guide](https://youtu.be/eC6Hd1hF568)
+* 🤖 **AI Agents & Tool Use**: [ReAct Agent Guide](https://www.youtube.com/watch?v=kBXYFaZ0EN0)
+* 🔌 **Model Context Protocol (MCP)**: [MCP Tutorial Guide](https://www.youtube.com/watch?v=3_TN1i3MTEU)
+* 🗂️ **Vector Databases & RAG from Scratch**: [Pinecone & LangChain](https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x)
+* 🧪 **PEFT & QLoRA Fine-Tuning**: [Fine-tuning LLMs Guide](https://www.youtube.com/watch?v=J50L7PxA1Qc)
 
 ### 📌 Phase 6: Practical Projects Portfolio
 *Build real-world systems following our step-by-step guides in [docs/projects-roadmap.md](docs/projects-roadmap.md).*
-* 📧 **Spam Classifier**: [Tutorial Guide](https://youtu.be/y4gKOdZ-e4E)
+* 📧 **Spam Classifier**: [Tutorial Guide](https://www.youtube.com/watch?v=YncZ0WwxyzU)
 * 🎥 **Recommendation Engine**: [Tutorial Guide](https://youtu.be/V_xro1bcAuA)
-* 💬 **AI Customer Chatbot**: [Local Ollama Chatbot](https://youtu.be/d0o8959t6t8)
-* 📄 **Resume Skill Analyzer**: [SpaCy NLP Parsing](https://youtu.be/WEn34Wf_210)
-* 🗂️ **PDF Q&A Assistant**: [RAG Tutorial](https://youtu.be/wd7a8FswFCo)
-* 🎙️ **Voice AI Booking Assistant**: [Multi-Agent Voice Bot](https://youtu.be/hpZ5F62rXRE)
-* 🌐 **AI Agent Team SaaS**: [CrewAI multi-agent group](https://youtu.be/n3D1Qx24r9k)
+* 💬 **AI Customer Chatbot**: [Local Ollama Chatbot](https://www.youtube.com/watch?v=A7EpJzaqtNc)
+* 📄 **Resume Skill Analyzer**: [SpaCy NLP Parsing](https://www.youtube.com/watch?v=QBExhbLXlJc)
+* 🗂️ **PDF Q&A Assistant**: [RAG Tutorial](https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x)
+* 🎙️ **Voice AI Booking Assistant**: [Multi-Agent Voice Bot](https://www.youtube.com/watch?v=kBXYFaZ0EN0)
+* 🌐 **AI Agent Team SaaS**: [CrewAI multi-agent group](https://www.youtube.com/watch?v=kBXYFaZ0EN0)
 
 ### 📌 Phase 7: Deployment & MLOps serving
 *Ship your models to production and make them available to users worldwide.*
-* 🐳 **Docker Containers**: [Docker Crash Course](https://youtu.be/3c-iM_9pHuw)
-* ⚡ **FastAPI APIs**: [FastAPI Tutorial](https://youtu.be/tLKKmouUrms)
+* 🐳 **Docker Containers**: [Docker Crash Course](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+* ⚡ **FastAPI APIs**: [FastAPI Tutorial](https://www.youtube.com/watch?v=rvFsGRvj9jo)
 * 📊 **Streamlit UI**: [Rapid Dashboard Prototyping](https://youtu.be/vIQQR_yq-8I)
-* ☁️ **Deploying to Cloud PaaS**: [Render & Railway Deployment](https://youtu.be/4SO3CUW589U)
-* ⚙️ **MLOps experiment tracking**: [MLflow Setup](https://youtu.be/1yv9ODVzk1I)
+* ☁️ **Deploying to Cloud PaaS**: [Render & Railway Deployment](https://www.youtube.com/watch?v=plcaPeJXeM8)
+* ⚙️ **MLOps experiment tracking**: [MLflow Setup](https://www.youtube.com/watch?v=6ngxBkx05Fs)
 
 ---
 

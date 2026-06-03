@@ -9,8 +9,8 @@ Prepare for your technical AI, Machine Learning, and Generative AI interviews. T
 [Machine Learning] ──> [Deep Learning] ──> [LLMs & GenAI] ──> [RAG & Search] ──> [AI System Design]
 ```
 
-- 📺 **Machine Learning Interview Questions (CampusX)**: [Watch Video](https://youtu.be/wpQiScX_Hss)
-- 📺 **AI System Design Interview Prep**: [Watch Video](https://youtu.be/hpZ5F62rXRE)
+- 📺 **Machine Learning Interview Questions (CampusX)**: [Watch Video](https://www.youtube.com/watch?v=4jRBRDbJemM)
+- 📺 **AI System Design Interview Prep**: [Watch Video](https://www.youtube.com/watch?v=kBXYFaZ0EN0)
 
 ---
 

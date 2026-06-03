@@ -52,9 +52,9 @@ Data scientists spend 80% of their time wrangling and visualizing data. Master t
 └───────────────┴────────────────────────────────────────┘
 ```
 
-- 📺 **NumPy Complete Tutorial (freeCodeCamp)**: [Watch Video](https://youtu.be/QUT1VHiLgI4)
-- 📺 **Pandas Full Course (CampusX)**: [Watch Playlist](https://youtube.com/playlist?list=PLKnIA16_Rmvb1RYRc93n_T1Zg-A8N65M6)
-- 📺 **Data Visualization (Matplotlib & Seaborn) by CampusX**: [Watch Playlist](https://youtube.com/playlist?list=PLKnIA16_RmvayZ5pGz1e70M6v_xVfKssK)
+- 📺 **NumPy Complete Tutorial (freeCodeCamp)**: [Watch Video](https://www.youtube.com/watch?v=GB9ByFAIAH4)
+- 📺 **Pandas Full Course (CampusX)**: [Watch Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z)
+- 📺 **Data Visualization (Matplotlib & Seaborn) by CampusX**: [Watch Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvbR85fgbfVRKOiMokUKVupy)
 
 ### 💻 Quick Code Sample: Data Wrangling
 ```python
@@ -76,7 +76,7 @@ print(df)
 
 Master classical machine learning algorithms, how they work mathematically, and how to implement them from scratch and with Scikit-Learn.
 
-- 📺 **100 Days of Machine Learning Playlist by CampusX**: [Watch Playlist](https://youtube.com/playlist?list=PLKnIA16_RmvbOo3NzU5v45E7b4x109FTS)
+- 📺 **100 Days of Machine Learning Playlist by CampusX**: [Watch Playlist](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
 - 📺 **StatQuest Machine Learning Videos**: [Watch Playlist](https://youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
 
 ---
@@ -86,13 +86,13 @@ Master classical machine learning algorithms, how they work mathematically, and 
 #### 1. Feature Engineering
 Preparing raw data for ML models.
 - **Topics**: Imputation, One-Hot Encoding, Ordinal Encoding, Scaling (Standardization, MinMax), Outlier Detection.
-- 📺 **Feature Engineering Playlist (CampusX)**: [Watch Playlist](https://youtube.com/playlist?list=PLKnIA16_RmvbEPjJ2C7jSp5fN9Urcv-U1)
+- 📺 **Feature Engineering Playlist (CampusX)**: [Watch Playlist](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
 
 #### 2. Regression Algorithms
 Predicting continuous numerical values.
 - **Topics**: Simple Linear Regression, Multiple Linear Regression, Ridge & Lasso (L1 & L2 Regularization).
-- 📺 **Linear Regression from Scratch (CampusX)**: [Watch Video](https://youtu.be/E5Rjxo4sY5M)
-- 📺 **Ridge & Lasso Regression (CampusX)**: [Watch Video](https://youtu.be/9K2Mst6kFk8)
+- 📺 **Linear Regression from Scratch (CampusX)**: [Watch Video](https://www.youtube.com/watch?v=UZPfbG0jNec)
+- 📺 **Ridge & Lasso Regression (CampusX)**: [Watch Video](https://www.youtube.com/watch?v=aEow1QoTLo0)
 
 #### 3. Classification Algorithms
 Predicting categorical labels.
@@ -100,7 +100,7 @@ Predicting categorical labels.
 - 📺 **Logistic Regression Tutorial (CampusX)**: [Watch Video](https://youtu.be/yIYKR4sgzI8)
 - 📺 **Decision Trees Explained (StatQuest)**: [Watch Video](https://youtu.be/7VeUPuFGJHk)
 - 📺 **Random Forests (StatQuest)**: [Watch Video](https://youtu.be/J4Wdy0Wc_xQ)
-- 📺 **Support Vector Machines (SVM)**: [Watch Video](https://youtu.be/efR1C6QxbzI)
+- 📺 **Support Vector Machines (SVM)**: [Watch Video](https://www.youtube.com/watch?v=HfrKYccB2DQ)
 
 #### 4. Clustering & Unsupervised Learning
 Finding hidden structures in unlabeled data.
@@ -119,15 +119,15 @@ Reducing features while maintaining variance.
 How to evaluate regression and classification models.
 - **Regression**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-Squared ($R^2$).
 - **Classification**: Confusion Matrix, Accuracy, Precision, Recall, F1-Score, ROC Curve, AUC.
-- 📺 **Model Evaluation Metrics Video**: [Watch Video](https://youtu.be/wpQiScX_Hss)
+- 📺 **Model Evaluation Metrics Video**: [Watch Video](https://www.youtube.com/watch?v=4jRBRDbJemM)
 
 ---
 
 ## 🛠️ Step-by-Step Practical Projects
 Practice what you learn by building real projects.
 1. **Housing Price Predictor (Regression)**
-   - 📺 **Project Tutorial**: [Watch Video](https://youtu.be/raw1KLG-uMo)
+   - 📺 **Project Tutorial**: [Watch Video](https://www.youtube.com/watch?v=UZPfbG0jNec)
 2. **Spam Email Classifier (Classification)**
-   - 📺 **Project Tutorial**: [Watch Video](https://youtu.be/y4gKOdZ-e4E)
+   - 📺 **Project Tutorial**: [Watch Video](https://www.youtube.com/watch?v=YncZ0WwxyzU)
 3. **Customer Segmentation (Clustering)**
-   - 📺 **Project Tutorial**: [Watch Video](https://youtu.be/raw1KLG-uMo)
+   - 📺 **Project Tutorial**: [Watch Video](https://www.youtube.com/watch?v=UZPfbG0jNec)

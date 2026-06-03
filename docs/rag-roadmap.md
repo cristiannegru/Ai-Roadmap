@@ -19,21 +19,21 @@ Retrieval-Augmented Generation (RAG) is the industry standard architectural patt
 ### 1. Naive RAG (The Basics)
 Learn the core components of reading a file, chunking it, creating vectors, and querying a vector store.
 - **Topics**: Chunking Strategies (Fixed size, Token-based, Semantic chunking), Embedding Models (OpenAI, HuggingFace, Cohere), Vector Indexing, Cosine Similarity.
-- 📺 **RAG from Scratch by LangChain**: [Watch Playlist](https://youtube.com/playlist?list=PLfaIDF_Lw__D2a7PsnK1Kg1NBOo0mE2w0)
-- 📺 **Vector Database Basics (Pinecone Tutorial)**: [Watch Video](https://youtu.be/kM1W3L_m1gM)
+- 📺 **RAG from Scratch by LangChain**: [Watch Playlist](https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x)
+- 📺 **Vector Database Basics (Pinecone Tutorial)**: [Watch Video](https://www.youtube.com/watch?v=5fp6e5nhJRk)
 
 ### 2. Advanced RAG (Optimizing Retrieval)
 Simple semantic search fails when queries are vague or documents are complex. Master these optimization techniques.
 - **Query Translation**: Query Rewriting, Multi-Query expansion, Sub-Query decomposition.
 - **Routing**: Query routing based on semantic intent or metadata.
 - **Post-Retrieval (Reranking)**: Scoring retrieved documents with Cross-Encoder models to select the most relevant chunks.
-- 📺 **Advanced RAG Concepts & Architecture**: [Watch Video](https://youtu.be/tcqE3N80Xus)
-- 📺 **Advanced RAG Tutorial (Query Translation & Reranking)**: [Watch Video](https://youtu.be/wd7a8FswFCo)
+- 📺 **Advanced RAG Concepts & Architecture**: [Watch Video](https://www.youtube.com/watch?v=A7EpJzaqtNc)
+- 📺 **Advanced RAG Tutorial (Query Translation & Reranking)**: [Watch Video](https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x)
 
 ### 3. RAG Evaluation (RAGAS & TruLens)
 How do you know if your RAG pipeline is working? You must test the quality of retrieval and generation.
 - **Metrics**: Faithfulness, Answer Relevance, Context Recall, Context Precision.
-- 📺 **Evaluating RAG with RAGAS**: [Watch Video](https://youtu.be/Anr7gL2e4xU)
+- 📺 **Evaluating RAG with RAGAS**: [Watch Video](https://www.youtube.com/watch?v=5fp6e5nhJRk)
 
 ---
 
@@ -61,8 +61,8 @@ print(response)
 
 ## 🛠️ RAG Milestones & Projects
 1. **PDF Question-Answering Assistant (ChromaDB + OpenAI + LangChain)**
-   - 📺 **Project Tutorial**: [Watch Video](https://youtu.be/wd7a8FswFCo)
+   - 📺 **Project Tutorial**: [Watch Video](https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x)
 2. **Enterprise RAG Dashboard with Hybrid Search & Cohere Rerank**
-   - 📺 **Project Tutorial**: [Watch Video](https://youtu.be/8OJC21T2sl4)
+   - 📺 **Project Tutorial**: [Watch Video](https://www.youtube.com/watch?v=M6vZ6b75p9k)
 3. **Evaluating RAG Performance on 100 Documents (Ragas Framework)**
-   - 📺 **Project Tutorial**: [Watch Video](https://youtu.be/Anr7gL2e4xU)
+   - 📺 **Project Tutorial**: [Watch Video](https://www.youtube.com/watch?v=5fp6e5nhJRk)

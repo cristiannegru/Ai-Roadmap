@@ -12,7 +12,7 @@ Freelancing allows you to solve real-world business problems, gain hands-on engi
      └─ Agents/MCP     └─ Video walkthroughs └─ Showcase direct ROI        └─ Offer free audit call
 ```
 
-- 📺 **How to Freelance as an AI Developer**: [Watch Video](https://youtu.be/H48D-Zg9kFk)
+- 📺 **How to Freelance as an AI Developer**: [Watch Video](https://www.youtube.com/watch?v=-LCkwnpUilI)
 
 ---
 

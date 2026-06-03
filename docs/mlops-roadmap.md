@@ -24,12 +24,12 @@ Learn how to track code changes and collaborate on developers' teams.
 ### 2. Containerization: Docker
 Package your code, dependencies, OS libraries, and configurations into a single container that runs anywhere.
 - **Topics**: Dockerfile, Docker Images, Containers, Port Mapping, Volume mounts, Docker Compose.
-- 📺 **Docker Crash Course (freeCodeCamp)**: [Watch Video](https://youtu.be/3c-iM_9pHuw)
+- 📺 **Docker Crash Course (freeCodeCamp)**: [Watch Video](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 
 ### 3. API Development: FastAPI & Flask
 Serve your machine learning models as HTTP endpoints.
 - **Topics**: REST APIs, Request/Response payloads, JSON serialization, Pydantic data validation.
-- 📺 **FastAPI Crash Course**: [Watch Video](https://youtu.be/tLKKmouUrms)
+- 📺 **FastAPI Crash Course**: [Watch Video](https://www.youtube.com/watch?v=rvFsGRvj9jo)
 - 📺 **Flask Complete Tutorial**: [Watch Video](https://youtu.be/Z1RJmh_OqeA)
 
 ### 4. UI Prototyping: Streamlit
@@ -41,14 +41,14 @@ Create interactive web interfaces for your AI models using pure Python in minute
 Deploy your application online for users to access.
 - **PaaS (Easy)**: Render, Railway, Vercel (best for static sites & small APIs).
 - **IaaS (Enterprise)**: AWS (EC2, S3, SageMaker, IAM).
-- 📺 **Deploy Python APIs to Render & Railway**: [Watch Video](https://youtu.be/4SO3CUW589U)
-- 📺 **AWS Basics for ML Engineers**: [Watch Video](https://youtu.be/M918Tf1-yrc)
+- 📺 **Deploy Python APIs to Render & Railway**: [Watch Video](https://www.youtube.com/watch?v=plcaPeJXeM8)
+- 📺 **AWS Basics for ML Engineers**: [Watch Video](https://www.youtube.com/watch?v=4rF3xsCeJHQ)
 
 ### 6. MLOps pipeline orchestration & Tracking
 Monitoring, pipeline automation, and experiment tracking.
 - **Topics**: MLflow, Apache Airflow, DVC (Data Version Control).
-- 📺 **MLOps Roadmap & Lifecycle Course**: [Watch Video](https://youtu.be/90B2N84e9lM)
-- 📺 **MLflow Experiment Tracking**: [Watch Video](https://youtu.be/1yv9ODVzk1I)
+- 📺 **MLOps Roadmap & Lifecycle Course**: [Watch Video](https://www.youtube.com/watch?v=6ngxBkx05Fs)
+- 📺 **MLflow Experiment Tracking**: [Watch Video](https://www.youtube.com/watch?v=6ngxBkx05Fs)
 
 ---
 
@@ -80,8 +80,8 @@ if __name__ == "__main__":
 
 ## 🛠️ Deployment Milestones & Projects
 1. **Dockerize an ML Model (Scikit-Learn Classifier)**
-   - 📺 **Tutorial**: [Watch Video](https://youtu.be/3c-iM_9pHuw)
+   - 📺 **Tutorial**: [Watch Video](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 2. **FastAPI ML Endpoint Deployed to Render**
-   - 📺 **Tutorial**: [Watch Video](https://youtu.be/4SO3CUW589U)
+   - 📺 **Tutorial**: [Watch Video](https://www.youtube.com/watch?v=plcaPeJXeM8)
 3. **Streamlit UI Connecting to FastAPI Model Endpoint**
    - 📺 **Tutorial**: [Watch Video](https://youtu.be/vIQQR_yq-8I)
