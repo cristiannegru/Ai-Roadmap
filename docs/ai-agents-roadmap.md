@@ -1,0 +1,92 @@
+# 🤖 AI Agents & Multi-Agent Systems Roadmap
+
+AI Agents represent the transition of LLMs from simple chatbots to autonomous systems capable of reasoning, planning, utilizing tools, and cooperating to complete complex objectives. This roadmap covers Phase 5E.
+
+---
+
+## 🗺️ Agentic AI Architecture
+```
+                   ┌──────────────┐
+                   │  LLM Brain   │
+                   └──────┬───────┘
+                          │
+          ┌───────────────┼───────────────┐
+          ▼               ▼               ▼
+     ┌─────────┐     ┌─────────┐     ┌─────────┐
+     │ Memory  │     │Planning │     │  Tools  │
+     │ Short / │     │ ReAct / │     │ Web /   │
+     │ Long    │     │ Reflex  │     │ APIs    │
+     └─────────┘     └─────────┘     └─────────┘
+```
+
+---
+
+## 📌 Phase 5E: Agentic AI Specialization
+
+### 1. Agent Foundations (ReAct & Tool Use)
+Understand the basic architecture of an agent: an LLM loop that processes observations and selects tools.
+- **Topics**: ReAct loop (Reason, Act, Observe), Function Calling, System Instructions, Tool schema definitions.
+- 📺 **Intro to AI Agents & Tool Use**: [Watch Video](https://youtu.be/F8N5a5KyPmA)
+
+### 2. Model Context Protocol (MCP)
+The newly introduced Model Context Protocol (MCP) by Anthropic establishes an open standard for connecting AI models to data sources (databases, filesystems) and tools safely.
+- **Topics**: MCP Host, MCP Client, MCP Server, secure local data access.
+- 📺 **Model Context Protocol (MCP) Complete Tutorial**: [Watch Video](https://youtu.be/G2pZzGZ2fFE)
+
+### 3. Agent Frameworks: CrewAI, AutoGen & LangGraph
+Move beyond single agents to orchestrate team workflows and complex state transitions.
+- **CrewAI**: Role-playing agent groups, task queues, and sequential delegation.
+- **AutoGen**: Conversational multi-agent setups.
+- **LangGraph**: Cycle-based state machine agents (industry standard for complex, production-grade applications).
+- 📺 **CrewAI Crash Course for Beginners**: [Watch Video](https://youtu.be/n3D1Qx24r9k)
+- 📺 **LangGraph Course (Building State-driven Agents)**: [Watch Video](https://youtu.be/vQ8v1z99Cis)
+
+### 4. Agentic Memory & Planning
+Giving agents memory across conversation boundaries.
+- **Topics**: Episodic Memory, Semantic Memory, Long-term databases, Reflection & Self-Correction techniques.
+- 📺 **AI Agent Memory Systems Explained**: [Watch Video](https://youtu.be/hpZ5F62rXRE)
+
+---
+
+## 💻 Code Sample: Custom Agent with CrewAI
+Here is how to create a research agent group using CrewAI:
+
+```python
+from crewai import Agent, Task, Crew, Process
+
+# Define a research agent
+researcher = Agent(
+    role='Senior Research Analyst',
+    goal='Uncover cutting-edge developments in AI Agents',
+    backstory="You are an expert AI researcher specializing in agentic systems.",
+    verbose=True,
+    allow_delegation=False
+)
+
+# Define the research task
+research_task = Task(
+    description='Analyze the latest papers on Model Context Protocol (MCP) in 2026.',
+    expected_output='A comprehensive 3-paragraph summary of MCP benefits.',
+    agent=researcher
+)
+
+# Build the crew
+crew = Crew(
+    agents=[researcher],
+    tasks=[research_task],
+    process=Process.sequential
+)
+
+result = crew.kickoff()
+print(result)
+```
+
+---
+
+## 🛠️ AI Agent Milestones & Projects
+1. **Web Research Agent (LangChain + DuckDuckGo Search Tool)**
+   - 📺 **Project Tutorial**: [Watch Video](https://youtu.be/F8N5a5KyPmA)
+2. **Autonomous Multi-Agent Content Team (CrewAI + Local Llama 3)**
+   - 📺 **Project Tutorial**: [Watch Video](https://youtu.be/n3D1Qx24r9k)
+3. **Enterprise Flowchart-driven Agent (LangGraph + FastAPI)**
+   - 📺 **Project Tutorial**: [Watch Video](https://youtu.be/vQ8v1z99Cis)

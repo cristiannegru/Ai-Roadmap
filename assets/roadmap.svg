@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+
+    <!-- Node Glowing Filters -->
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-emerald" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-orange" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-pink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-teal" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Arrow Marker -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#475569" />
+    </marker>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 32px; fill: #ffffff; letter-spacing: -0.05em; }
+    .subtitle { font-family: 'Inter', system-ui, sans-serif; font-weight: 400; font-size: 14px; fill: #94a3b8; }
+    .phase-num { font-family: 'Inter', system-ui, sans-serif; font-weight: 700; font-size: 11px; fill: #94a3b8; letter-spacing: 0.05em; }
+    .node-title { font-family: 'Inter', system-ui, sans-serif; font-weight: 700; font-size: 16px; fill: #ffffff; }
+    .node-desc { font-family: 'Inter', system-ui, sans-serif; font-weight: 400; font-size: 12px; fill: #cbd5e1; }
+    .line { fill: none; stroke: #334155; stroke-width: 3; stroke-dasharray: 4 4; }
+    .active-line { fill: none; stroke-width: 4; stroke-linecap: round; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1000" height="700" fill="url(#bg-grad)" />
+
+  <!-- Grid Overlay (subtle) -->
+  <g opacity="0.05">
+    <path d="M0,50 H1000 M0,100 H1000 M0,150 H1000 M0,200 H1000 M0,250 H1000 M0,300 H1000 M0,350 H1000 M0,400 H1000 M0,450 H1000 M0,500 H1000 M0,550 H1000 M0,600 H1000 M0,650 H1000" stroke="#ffffff" stroke-width="1" />
+    <path d="M50,0 V700 M100,0 V700 M150,0 V700 M200,0 V700 M250,0 V700 M300,0 V700 M350,0 V700 M400,0 V700 M450,0 V700 M50,0 V700 M550,0 V700 M600,0 V700 M650,0 V700 M700,0 V700 M750,0 V700 M800,0 V700 M850,0 V700 M900,0 V700 M950,0 V700" stroke="#ffffff" stroke-width="1" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(50, 60)">
+    <text class="title">THE COMPLETE AI ROADMAP (2026)</text>
+    <text class="subtitle" y="30">A step-by-step developer learning path from mathematical foundations to multi-agent production systems</text>
+  </g>
+
+  <!-- Connection Paths (Behind nodes) -->
+  <g>
+    <!-- Phase 1 -> Phase 2 -->
+    <path d="M 220,230 Q 320,180 420,230" class="line" marker-end="url(#arrow)" />
+    <!-- Phase 2 -> Phase 3 -->
+    <path d="M 640,230 Q 740,270 820,330" class="line" marker-end="url(#arrow)" />
+    <!-- Phase 3 -> Phase 4 -->
+    <path d="M 850,440 Q 800,530 680,560" class="line" marker-end="url(#arrow)" />
+    <!-- Phase 4 -> Phase 5 -->
+    <path d="M 460,560 Q 340,530 290,440" class="line" marker-end="url(#arrow)" />
+    <!-- Phase 5 -> Phase 6 -->
+    <path d="M 270,330 Q 350,280 450,330" class="line" marker-end="url(#arrow)" />
+    <!-- Phase 6 -> Phase 7 -->
+    <path d="M 620,370 Q 560,420 500,470" class="line" marker-end="url(#arrow)" />
+  </g>
+
+  <!-- Nodes -->
+
+  <!-- PHASE 1: FOUNDATIONS -->
+  <g transform="translate(50, 150)">
+    <!-- Glow -->
+    <rect width="220" height="120" rx="12" fill="#a855f7" opacity="0.15" filter="url(#glow-purple)"/>
+    <!-- Border & Background -->
+    <rect width="220" height="120" rx="12" fill="#0b0f19" stroke="#a855f7" stroke-width="2" />
+    <!-- Content -->
+    <text class="phase-num" x="20" y="30">PHASE 1</text>
+    <text class="node-title" x="20" y="55">AI Foundations</text>
+    <text class="node-desc" x="20" y="80">• Python Programming</text>
+    <text class="node-desc" x="20" y="98">• Math (LinAlg, Stats, Prob)</text>
+  </g>
+
+  <!-- PHASE 2: DATA SCIENCE -->
+  <g transform="translate(370, 150)">
+    <!-- Glow -->
+    <rect width="220" height="120" rx="12" fill="#3b82f6" opacity="0.15" filter="url(#glow-blue)"/>
+    <!-- Border & Background -->
+    <rect width="220" height="120" rx="12" fill="#0b0f19" stroke="#3b82f6" stroke-width="2" />
+    <!-- Content -->
+    <text class="phase-num" x="20" y="30">PHASE 2</text>
+    <text class="node-title" x="20" y="55">Data Essentials</text>
+    <text class="node-desc" x="20" y="80">• NumPy &amp; Pandas</text>
+    <text class="node-desc" x="20" y="98">• Matplotlib &amp; Seaborn</text>
+  </g>
+
+  <!-- PHASE 3: MACHINE LEARNING -->
+  <g transform="translate(730, 320)">
+    <!-- Glow -->
+    <rect width="220" height="120" rx="12" fill="#10b981" opacity="0.15" filter="url(#glow-emerald)"/>
+    <!-- Border & Background -->
+    <rect width="220" height="120" rx="12" fill="#0b0f19" stroke="#10b981" stroke-width="2" />
+    <!-- Content -->
+    <text class="phase-num" x="20" y="30">PHASE 3</text>
+    <text class="node-title" x="20" y="55">Machine Learning</text>
+    <text class="node-desc" x="20" y="80">• Supervised / Unsupervised</text>
+    <text class="node-desc" x="20" y="98">• Feature Eng &amp; Scikit-Learn</text>
+  </g>
+
+  <!-- PHASE 4: DEEP LEARNING -->
+  <g transform="translate(510, 500)">
+    <!-- Glow -->
+    <rect width="220" height="120" rx="12" fill="#eab308" opacity="0.15" filter="url(#glow-orange)"/>
+    <!-- Border & Background -->
+    <rect width="220" height="120" rx="12" fill="#0b0f19" stroke="#eab308" stroke-width="2" />
+    <!-- Content -->
+    <text class="phase-num" x="20" y="30">PHASE 4</text>
+    <text class="node-title" x="20" y="55">Deep Learning</text>
+    <text class="node-desc" x="20" y="80">• Neural Networks &amp; CNNs</text>
+    <text class="node-desc" x="20" y="98">• PyTorch &amp; Transformers</text>
+  </g>
+
+  <!-- PHASE 5: SPECIALIZATIONS -->
+  <g transform="translate(100, 320)">
+    <!-- Glow -->
+    <rect width="220" height="120" rx="12" fill="#f97316" opacity="0.15" filter="url(#glow-orange)"/>
+    <!-- Border & Background -->
+    <rect width="220" height="120" rx="12" fill="#0b0f19" stroke="#f97316" stroke-width="2" />
+    <!-- Content -->
+    <text class="phase-num" x="20" y="30">PHASE 5</text>
+    <text class="node-title" x="20" y="55">Specializations</text>
+    <text class="node-desc" x="20" y="80">• Computer Vision (CV)</text>
+    <text class="node-desc" x="20" y="98">• NLP &amp; Generative AI</text>
+  </g>
+
+  <!-- PHASE 6: PROJECTS -->
+  <g transform="translate(420, 270)">
+    <!-- Glow -->
+    <rect width="220" height="120" rx="12" fill="#ec4899" opacity="0.15" filter="url(#glow-pink)"/>
+    <!-- Border & Background -->
+    <rect width="220" height="120" rx="12" fill="#0b0f19" stroke="#ec4899" stroke-width="2" />
+    <!-- Content -->
+    <text class="phase-num" x="20" y="30">PHASE 6</text>
+    <text class="node-title" x="20" y="55">Practical Projects</text>
+    <text class="node-desc" x="20" y="80">• RAG, PDF &amp; Voice Assistants</text>
+    <text class="node-desc" x="20" y="98">• Multi-Agent AI SaaS</text>
+  </g>
+
+  <!-- PHASE 7: DEPLOYMENT & MLOPS -->
+  <g transform="translate(230, 500)">
+    <!-- Glow -->
+    <rect width="220" height="120" rx="12" fill="#14b8a6" opacity="0.15" filter="url(#glow-teal)"/>
+    <!-- Border & Background -->
+    <rect width="220" height="120" rx="12" fill="#0b0f19" stroke="#14b8a6" stroke-width="2" />
+    <!-- Content -->
+    <text class="phase-num" x="20" y="30">PHASE 7</text>
+    <text class="node-title" x="20" y="55">Deployment &amp; MLOps</text>
+    <text class="node-desc" x="20" y="80">• Docker, FastAPI, Git</text>
+    <text class="node-desc" x="20" y="98">• Streamlit, Cloud Hosting</text>
+  </g>
+
+  <!-- Footer Info -->
+  <text font-family="'Inter', system-ui, sans-serif" font-weight="500" font-size="12" fill="#64748b" x="50" y="660">★ Star the Repo to track your learning journey</text>
+</svg>
