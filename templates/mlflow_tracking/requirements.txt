@@ -1,0 +1,3 @@
+# Optional: only needed for the live MLflow bridge.
+# The file-based RunLogger (src/ai_roadmap/tracking.py) needs nothing.
+mlflow>=2.12

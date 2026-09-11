@@ -1,0 +1,48 @@
+site_name: AI Roadmap (2026)
+site_description: Zero-to-advanced AI guide with runnable code, quizzes, and projects.
+site_url: https://udaysharmadev.github.io/Ai-Roadmap/
+repo_url: https://github.com/udaysharmadev/Ai-Roadmap
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+
+nav:
+  - Start here: index.md
+  - Machine Learning & Math: machine-learning-roadmap.md
+  - Deep Learning: deep-learning-roadmap.md
+  - Computer Vision: computer-vision-roadmap.md
+  - NLP: nlp-roadmap.md
+  - Generative AI: generative-ai-roadmap.md
+  - RAG Systems: rag-roadmap.md
+  - AI Agents: ai-agents-roadmap.md
+  - MLOps: mlops-roadmap.md
+  - Projects (50 ideas): projects-roadmap.md
+  - Quizzes:
+      - Phase 1 — Python & Math: quizzes/phase1_python_math.md
+      - Phase 2 — Data: quizzes/phase2_data.md
+      - Phase 3 — ML: quizzes/phase3_ml.md
+      - Phase 4 — DL: quizzes/phase4_dl.md
+      - Phase 5 — GenAI/RAG: quizzes/phase5_genai.md
+      - Phase 6 — Projects: quizzes/phase6_projects.md
+      - Phase 7 — MLOps: quizzes/phase7_mlops.md
+  - Flashcards: flashcards.md
+  - Career:
+      - Interview prep: interview-preparation.md
+      - Resume guide: resume-guide.md
+      - Internships: internship-guide.md
+      - Freelancing: freelancing-guide.md
+      - Open source: open-source-guide.md
+
+# Local preview: pip install -r requirements-docs.txt && mkdocs serve
+# Strict build (CI-grade): mkdocs build --strict

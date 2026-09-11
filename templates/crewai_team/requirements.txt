@@ -1,0 +1,4 @@
+numpy>=1.26
+# Live mode only (demo runs without these):
+# crewai>=0.80
+# openai>=1.30

@@ -20,7 +20,24 @@
   <a href="LICENSE">
     <img src="https://img.shields.io/github/license/udaysharmadev/Ai-Roadmap?style=for-the-badge&color=00bfff&labelColor=000000" alt="MIT License" />
   </a>
+  <a href="https://github.com/udaysharmadev/Ai-Roadmap/actions/workflows/ci.yml">
+    <img src="https://github.com/udaysharmadev/Ai-Roadmap/actions/workflows/ci.yml/badge.svg" alt="CI Status" />
+  </a>
 </div>
+
+---
+
+## ⚡ Quickstart (5 minutes, offline)
+
+```bash
+git clone https://github.com/udaysharmadev/Ai-Roadmap.git && cd Ai-Roadmap
+pip install -r requirements.txt
+pytest -q                          # 90 tests, zero API keys
+python -m ai_roadmap.progress --summary   # requires pip install -e . (or PYTHONPATH=src)
+```
+
+Then pick a route: **learn** (`notebooks/01_…` → `05_…` in order),
+**build** (`projects/01_…` → `07_…`), or **test yourself** (`docs/quizzes/`).
 
 ---
 
@@ -50,6 +67,18 @@ Here are the specialized pathways available in this repository:
 | **🗂️ RAG Systems** | Chunking, Embeddings, Vector DBs, Hybrid Search | [View Guide](docs/rag-roadmap.md) |
 | **🤖 AI Agents** | Autonomous loops, ReAct, CrewAI, LangGraph, MCP | [View Guide](docs/ai-agents-roadmap.md) |
 | **⚙️ MLOps & Ops** | Docker, FastAPI, Git, Streamlit, Cloud Hosting | [View Guide](docs/mlops-roadmap.md) |
+
+---
+
+## 🗺️ Choose Your Route
+
+| If you are… | Do this | Prove it |
+| :--- | :--- | :--- |
+| **Student / Beginner** | Phases 1→3, notebooks `01`–`03` | [Phase 1–3 quizzes](docs/quizzes/phase3_ml.md), Milestones 1–3 |
+| **Developer → GenAI** | Phases 4→5, notebooks `04`–`05`, template `streamlit_rag` | [Phase 5 quiz](docs/quizzes/phase5_genai.md), Milestone 5 |
+| **Freelancer** | Projects `05`–`07`, [freelancing guide](docs/freelancing-guide.md) | Deployed RAG demo URL + brief |
+| **Founder** | Full loop + `docker compose up --build` | Live API + chat URL (Milestone 7) |
+| **Job seeker** | [Interview prep](docs/interview-preparation.md) + [flashcards](docs/flashcards.md) | 40/40 cards, mock Q&A |
 
 ---
 
@@ -155,7 +184,7 @@ We have compiled comprehensive materials to help you land interviews, build resu
 ---
 
 ## 🌟 Progressive Milestones Tracker
-Use the checklist below to track your learning journey:
+Use the checklist below to track your learning journey (`python -m ai_roadmap.progress --check N`):
 
 - [ ] **Milestone 1**: Complete Python & Linear Algebra foundations.
 - [ ] **Milestone 2**: Build a data wrangling script cleaning a custom CSV with Pandas.
@@ -164,6 +193,28 @@ Use the checklist below to track your learning journey:
 - [ ] **Milestone 5**: Deployed a PDF Question-Answering chatbot (RAG) using Streamlit.
 - [ ] **Milestone 6**: Build an autonomous research agent group using CrewAI.
 - [ ] **Milestone 7**: Dockerize an API endpoint and deploy to Render cloud.
+
+---
+
+## 🧪 Self-Test & Docs Site
+
+* 📝 **Quizzes**: 10 Q&A per phase in [`docs/quizzes/`](docs/quizzes/phase1_python_math.md) (start anywhere).
+* 🃏 **Flashcards**: 40 rapid-fire cards in [`docs/flashcards.md`](docs/flashcards.md).
+* 📖 **Docs site**: `pip install -r requirements-docs.txt && mkdocs serve` (strict-clean `mkdocs build`).
+
+---
+
+## 🗂️ Repository Map
+
+```
+docs/            guides + quizzes/ (70 Q&A) + flashcards + career playbooks
+src/ai_roadmap/  tested library: basics → math → wrangling → features/metrics → torch → RAG → tracking
+notebooks/       01–05 worked solutions (run top-to-bottom, Colab-ready)
+projects/        01–07 runnable portfolio (each: README + requirements + CLI)
+templates/       copy-paste starters: streamlit_rag, crewai_team, mcp_server, fastapi_ml, mlflow_tracking
+scripts/         validate_repo, check_links, load_test
+data/samples/    offline datasets (CSVs force-added, see folder README)
+```
 
 ---
 

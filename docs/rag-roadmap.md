@@ -37,6 +37,28 @@ How do you know if your RAG pipeline is working? You must test the quality of re
 
 ---
 
+## 💻 Runnable Code in This Repo (Chunk 4, zero API keys)
+
+```bash
+pip install -r requirements.txt   # numpy only for RAG core
+pytest tests/test_rag.py tests/test_text_chunking.py -q
+python templates/crewai_team/crew.py --query "How does hybrid search work?" \
+  --docs data/samples/rag_docs
+```
+
+| Topic | Code | Try it |
+|-------|------|--------|
+| Chunking with overlap + provenance | `src/ai_roadmap/text_chunking.py` | `notebooks/05_rag_minimal.ipynb` §1 |
+| TF-IDF hashed embeddings (offline) | `src/ai_roadmap/embeddings.py` → `fit`/`embed_texts` | Same notebook §2 |
+| Vector store + persistence | `src/ai_roadmap/vector_store.py` | Same notebook §§3,7 |
+| Retrieve → cite → evaluate (hit@k) | `src/ai_roadmap/rag_pipeline.py` | Same notebook §§4–6 |
+| Chat UI over your docs | `templates/streamlit_rag/` | `ingest.py` then `streamlit run app.py` |
+
+> Production swaps (same call shapes): `HashingEmbedder` → OpenAI/Cohere
+> embeddings, `SimpleVectorStore` → Chroma/Qdrant, `generate_answer` → LLM call.
+
+---
+
 ## 💻 Code Sample: Simple RAG Pipeline with LlamaIndex
 Here is how to load a PDF and query it using LlamaIndex:
 

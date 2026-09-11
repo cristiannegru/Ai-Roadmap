@@ -1,5 +1,10 @@
 # ⚙️ MLOps & Deployment Roadmap
 
+> 💻 **Runnable in this repo (Chunk 6):** train → serve → deploy the full loop
+> offline. `templates/fastapi_ml/` (starter), `docker-compose.yml` (local),
+> `render.yaml` (cloud), `scripts/load_test.py` (gate). Milestone 7 =
+> `docker compose up --build` + a green load test.
+
 MLOps (Machine Learning Operations) bridges the gap between building an AI model and running it in a production environment. This guide covers Phase 7: code versioning, containerization, API development, rapid UI prototyping, cloud deployment, and model monitoring.
 
 ---

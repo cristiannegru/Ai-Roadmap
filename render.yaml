@@ -1,0 +1,15 @@
+# Render blueprint: one-click cloud deploy for the Titanic API.
+#   1. Push this repo to GitHub.
+#   2. Render Dashboard → New → Blueprint → select this repo (reads render.yaml).
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: titanic-api
+    runtime: docker
+    dockerfilePath: ./projects/07_fastapi_titanic_api/Dockerfile
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8000

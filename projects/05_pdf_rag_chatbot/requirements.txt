@@ -1,0 +1,5 @@
+numpy>=1.26
+# Optional PDF support:
+# pypdf>=4.2
+# Chat UI serving the same index:
+# streamlit>=1.33

@@ -1,0 +1,20 @@
+Priya Sharma
+Machine Learning Engineer | priya.sharma@example.com | +1-555-010-2030
+
+SUMMARY
+ML engineer with 4 years of experience building classification and
+recommendation systems in Python.
+
+SKILLS
+Python, SQL, Pandas, Scikit-Learn, PyTorch, Docker, Git, Linux, FastAPI, MLOps
+
+EXPERIENCE
+Senior ML Engineer, DataCorp (2022-present)
+- Shipped a churn classifier (precision 0.81, recall 0.74) with FastAPI.
+- Dockerized training with 3 years of MLflow tracking.
+
+ML Engineer, ShopAI (2020-2022)
+- Built Pandas pipelines over 2M rows; 1 year of Airflow orchestration.
+
+EDUCATION
+B.Tech Computer Science, 2020.

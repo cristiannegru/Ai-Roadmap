@@ -82,6 +82,24 @@ print(model)
 
 ---
 
+## 💻 Runnable Code in This Repo (Chunk 3)
+
+```bash
+pip install -r requirements.txt   # includes torch (CPU ok, MPS auto on Apple Silicon)
+pytest tests/test_torch_utils.py -q
+```
+
+| Topic | Code | Try it |
+|-------|------|--------|
+| MLP / CNN / training loop | `src/ai_roadmap/torch_utils.py` | `notebooks/04_pytorch_cnn.ipynb` |
+| Synthetic digits (no download) | `make_synthetic_digits()` | Same notebook §1 |
+| Save → reload → serve pattern | `save_model` / `load_model` | Same notebook §5, reused in Chunk 6 |
+
+> Device note: `get_device()` picks cuda > mps > cpu. Checkpoints store
+> `state_dict` only — `load_model(..., device=...)` places weights correctly.
+
+---
+
 ## 🛠️ Deep Learning Milestones & Projects
 1. **MNIST Digit Classifier** (Your "Hello World" of Deep Learning)
    - 📺 **Tutorial**: [Watch Video](https://www.youtube.com/watch?v=V_xro1bcAuA)

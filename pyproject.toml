@@ -1,0 +1,85 @@
+[project]
+name = "ai-roadmap"
+version = "2.0.0"
+description = "The Complete AI Roadmap (2026) — code, projects, and production templates alongside the docs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Uday Sharma" }]
+keywords = ["ai", "machine-learning", "deep-learning", "llm", "rag", "agents", "mlops"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "matplotlib>=3.8",
+  "seaborn>=0.13",
+  "scikit-learn>=1.4",
+  "scipy>=1.12",
+  "tqdm>=4.66",
+  "pyyaml>=6.0",
+  "python-dotenv>=1.0",
+  "requests>=2.31",
+  "pillow>=10.3",
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "pydantic>=2.6",
+  "streamlit>=1.33",
+  "torch>=2.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2", "pytest-cov>=5.0", "ruff>=0.4", "black>=24.4", "mypy>=1.10", "pre-commit>=3.7"]
+notebooks = ["jupyter>=1.1", "notebook>=7.2"]
+torch = ["torch>=2.3", "torchvision>=0.18"]
+genai = ["langchain>=0.2", "llama-index>=0.10", "chromadb>=0.5", "sentence-transformers>=2.7"]
+
+[project.urls]
+Homepage = "https://github.com/udaysharmadev/Ai-Roadmap"
+Issues = "https://github.com/udaysharmadev/Ai-Roadmap/issues"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+# Runnable scripts bootstrap sys.path before third-party imports (E402).
+[tool.ruff.lint.per-file-ignores]
+"templates/**/*.py" = ["E402"]
+"projects/**/*.py" = ["E402"]
+"scripts/*.py" = ["E402"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "--cov=src --cov-report=term-missing"
+
+[tool.mypy]
+# 3.12+: NumPy's bundled stubs use 3.12-only syntax; older settings abort
+# parsing entirely ("errors prevented further checking"). Runtime support
+# stays >=3.10 (see requires-python); this only affects static checking.
+python_version = "3.12"
+ignore_missing_imports = true
+warn_unused_configs = true
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["*/tests/*", "*/__init__.py"]

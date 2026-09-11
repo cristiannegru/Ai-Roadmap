@@ -1,0 +1,40 @@
+name: Bug report
+description: Report something broken (docs, code, links, scripts)
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where is the bug?
+      description: File path or URL, e.g. docs/rag-roadmap.md or src/ai_roadmap/progress.py
+      placeholder: docs/... / src/... / projects/...
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect vs what you saw?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Exact commands, OS, Python version
+      value: |
+        1.
+        2.
+        3.
+        Python version:
+        OS:
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues
+          required: true
+        - label: I can submit a PR for this (optional)
+          required: false

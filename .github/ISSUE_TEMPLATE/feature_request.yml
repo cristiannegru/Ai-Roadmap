@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest new code, projects, guides, or tooling
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - docs
+        - code (src/)
+        - projects/
+        - notebooks/
+        - templates/ (RAG / Agents / MLOps)
+        - tooling / CI
+        - career guides
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should be added? Why? Who does it help?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Implementation sketch (optional)
+      description: Files, tech stack, video/resource links

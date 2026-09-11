@@ -1,0 +1,32 @@
+# Full-stack local deployment: Titanic API + RAG chat UI.
+#   docker compose up --build
+#   API → http://localhost:8000/docs | RAG → http://localhost:8501
+services:
+  api:
+    build:
+      context: .
+      dockerfile: projects/07_fastapi_titanic_api/Dockerfile
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  rag:
+    build:
+      context: .
+      dockerfile: templates/streamlit_rag/Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      # Mount your own prebuilt index to override the baked sample:
+      # - ./my-index:/app/index:ro
+      - rag-index:/app/index
+    restart: unless-stopped
+
+volumes:
+  rag-index:

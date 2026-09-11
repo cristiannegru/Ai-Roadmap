@@ -1,0 +1,10 @@
+{
+  "default": true,
+  "line-length": 120,
+  "no-duplicate-heading": { "siblings_only": true },
+  "no-inline-html": false,
+  "fenced-code-language": true,
+  "blanks-around-headings": true,
+  "blanks-around-lists": true,
+  "no-trailing-punctuation": false
+}

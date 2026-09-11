@@ -1,0 +1,2 @@
+# Docs-site only (browsable guides + quizzes). Not needed for code/tests.
+mkdocs-material>=9.5

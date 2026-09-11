@@ -1,5 +1,9 @@
 # 🏆 AI Projects Roadmap (50+ Project Ideas)
 
+> 💻 **Runnable in this repo (Chunk 5):** 7 portfolio projects with code, tests,
+> and Docker — see [`projects/README.md`](https://github.com/udaysharmadev/Ai-Roadmap/tree/main/projects). Start with
+> `01_spam_classifier`, finish by deploying `07_fastapi_titanic_api`.
+
 Building projects is the absolute best way to learn AI and machine learning. This document outlines **50+ project ideas** across six tiers, from complete beginner data exercises to venture-backed AI startup concepts.
 
 ---

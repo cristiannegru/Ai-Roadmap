@@ -1,0 +1,115 @@
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Virtual environments ───────────────────────────────
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ── Environment variables / secrets ────────────────────
+# Never commit real keys. See .env.example
+.env.local
+.env.*.local
+
+# ── Jupyter ────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ── Data / Models / Outputs (large, git-ignored) ───────
+# Keep small sample CSVs under data/samples/ (force-added).
+# Everything else ignored by default.
+data/raw/
+data/processed/
+data/external/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.bin
+*.onnx
+*.ckpt
+models/
+checkpoints/
+runs/
+mlruns/
+*.log
+outputs/
+
+# Allow tracked samples explicitly (negation works with git add -f anyway)
+!data/samples/.gitkeep
+!data/samples/README.md
+
+# ── OS / Editor ────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ── Testing / Coverage / Lint caches ───────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# ── Node (for docs site in Chunk 7) ────────────────────
+node_modules/
+.docusaurus/
+dist-ssr/
+site/
+
+# ── Learner-local state ──────────────────────────────
+.progress.json
+.progress.json.bak
+
+# ── Docker ─────────────────────────────────────────────
+.dockerignore

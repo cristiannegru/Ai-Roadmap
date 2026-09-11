@@ -123,6 +123,25 @@ How to evaluate regression and classification models.
 
 ---
 
+## 💻 Runnable Code in This Repo (Chunk 2)
+
+Don't just watch — run. All Phase 1–2 concepts have tested implementations:
+
+| Topic | Code | Try it |
+|-------|------|--------|
+| Python basics (chunking, counting, files, OOP) | `src/ai_roadmap/python_basics.py` | `notebooks/01_python_foundations.ipynb` |
+| Math (cosine, Bayes, softmax, regression) | `src/ai_roadmap/math_utils.py` | `notebooks/02_numpy_pandas.ipynb` §§1–2 |
+| Pandas cleaning pipeline (Milestone 2) | `src/ai_roadmap/data_wrangling.py` → `clean_dataframe()` | `notebooks/02_numpy_pandas.ipynb` §§3–6 |
+| Datasets (offline, synthetic) | `data/samples/titanic_sample.csv`, `housing_sample.csv` | `pytest tests/test_data_wrangling.py -q` |
+
+```bash
+pip install -r requirements.txt
+pytest -q                                   # 36 tests, all offline
+python -m doctest src/ai_roadmap/python_basics.py -v
+```
+
+---
+
 ## 🛠️ Step-by-Step Practical Projects
 Practice what you learn by building real projects.
 1. **Housing Price Predictor (Regression)**

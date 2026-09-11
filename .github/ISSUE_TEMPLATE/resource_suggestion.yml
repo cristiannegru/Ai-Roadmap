@@ -1,0 +1,34 @@
+name: Resource suggestion
+description: Suggest a free, high-quality video / course / paper to add to a phase
+title: "docs: suggest resource for "
+labels: ["documentation", "resources"]
+body:
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Phase
+      options:
+        - Phase 1 – Math & Python
+        - Phase 2 – Data Wrangling
+        - Phase 3 – Classical ML
+        - Phase 4 – Deep Learning
+        - Phase 5 – GenAI / LLMs / RAG / Agents
+        - Phase 6 – Projects
+        - Phase 7 – MLOps / Deployment
+        - Career (resume / interview / freelance)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      description: Must be free, high-quality, and currently available
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this better than what's there?
+      description: 1–3 sentences
+    validations:
+      required: true

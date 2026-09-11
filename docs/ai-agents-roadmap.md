@@ -21,6 +21,21 @@ AI Agents represent the transition of LLMs from simple chatbots to autonomous sy
 
 ---
 
+## 💻 Runnable Code in This Repo (Chunk 4, offline demo)
+
+```bash
+python templates/crewai_team/crew.py --query "What is ReAct?" --docs data/samples/rag_docs
+echo '{"id":1,"tool":"list_tables","args":{}}' | python templates/mcp_server/server.py --db /tmp/demo.db
+```
+
+| Topic | Code | Try it |
+|-------|------|--------|
+| Researcher → Writer → Critic crew | `templates/crewai_team/crew.py` | CLI above (`--show-hits` for provenance) |
+| MCP-concept SQLite tools | `templates/mcp_server/server.py` | `list_tables` / `describe_table` / `query_db` (SELECT-only) |
+| Retrieval feeding the crew | `src/ai_roadmap/rag_pipeline.py` | `notebooks/05_rag_minimal.ipynb` |
+
+---
+
 ## 📌 Phase 5E: Agentic AI Specialization
 
 ### 1. Agent Foundations (ReAct & Tool Use)
