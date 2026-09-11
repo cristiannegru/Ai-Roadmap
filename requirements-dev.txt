@@ -1,6 +1,6 @@
 -r requirements.txt
 
-# ── Dev / CI tooling ───────────────────────────────────
+# ── Dev / CI tooling (pip-installable only) ────────────
 pytest>=8.2
 pytest-cov>=5.0
 httpx>=0.27
@@ -8,5 +8,7 @@ ruff>=0.4
 black>=24.4
 mypy>=1.10
 pre-commit>=3.7
-markdownlint-cli>=0.39
-lychee>=0.15
+
+# NOTE: link/markdown linters are NOT pip packages — consumed via:
+#   - links workflow: lycheeverse/lychee-action (links.yml)
+#   - markdown job: npx markdownlint-cli (ci.yml)

@@ -75,6 +75,27 @@ EXPECTED_DOCS = [
 FORBIDDEN_TRACKED = [".env", ".pem", "id_rsa", ".key"]
 MAX_BYTES = 2_000_000
 YOUTUBE_RE = re.compile(r"(youtube\.com|youtu\.be)")
+# Local caches / envs are never shipped — skip them in the size walk
+# (they are git-ignored, but may exist in a working tree after lint runs).
+SKIP_DIRS = frozenset(
+    {
+        ".git",
+        ".mypy_cache",
+        ".pytest_cache",
+        ".ruff_cache",
+        "__pycache__",
+        "node_modules",
+        ".venv",
+        "venv",
+        ".tox",
+        "site",
+        "htmlcov",
+        "outputs",
+        "runs",
+        "mlruns",
+        "models",
+    }
+)
 
 EXPECTED_QUIZZES = [
     "docs/quizzes/phase1_python_math.md",
@@ -135,10 +156,15 @@ def main() -> int:
             errors.append("SECURITY: tracked .env found — remove it, keep only .env.example")
 
     for path in ROOT.rglob("*"):
-        if ".git/" in str(path) or path.is_dir():
+        if path.is_dir():
+            continue
+        rel_parts = path.relative_to(ROOT).parts
+        if SKIP_DIRS & set(rel_parts):
+            continue
+        if "assets/" in str(path):
             continue
         try:
-            if path.stat().st_size > MAX_BYTES and "assets/" not in str(path):
+            if path.stat().st_size > MAX_BYTES:
                 errors.append(f"large file tracked (>2MB): {path.relative_to(ROOT)}")
         except OSError:
             continue

@@ -4,6 +4,13 @@ All notable changes to the **AI Roadmap** project will be documented in this fil
 
 ---
 
+## [2.0.1] - 2026-09-11 — CI hotfix (found by first GitHub run)
+### Fixed
+- **CI install failure**: `requirements-dev.txt` listed `lychee` and `markdownlint-cli`, which are not pip packages (consumed via GH Action / npx) — `pip install` failed in ~8s and fail-fast cancelled the matrix. Removed with pointers to the real sources. Reproduced + verified in a fresh venv.
+- **Validator false positives**: the large-file walk flagged local caches (`.mypy_cache/`, …). Now skips git-ignored artefact dirs; covered by `tests/test_validate.py`.
+### Added
+- `tests/test_validate.py`: validator passes on the repo; cache dirs skipped.
+
 ## [2.0.0] - 2026-09-11 — Chunk 7: Learning UX + release (95% → 100%)
 ### Added
 - **Quizzes** (`docs/quizzes/phase{1..7}_*.md`): 70 Q&A with `<details>` answers, each tied to repo modules/notebooks/verified numbers (F1 1.0, R² 0.996, hit@2 1.0, p50 13.8ms).
